@@ -153,9 +153,11 @@ footer {
   }
 
   .stats {
-    margin: 0 auto;
+    width: 200px;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
 }
