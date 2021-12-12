@@ -104,6 +104,12 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: var(--soft-violet);
+  text-decoration: underline;
 }
 
 /* Media Queries */
@@ -148,7 +154,7 @@ footer {
   }
 
   .text-content {
-    padding: 1.5rem 1rem 2rem;
+    padding: 1.5rem 1rem 0.5rem;
     text-align: center;
   }
 
@@ -159,5 +165,9 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+
+  .text {
+    padding-bottom: 1rem;
   }
 }
