@@ -10,6 +10,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -37,6 +38,10 @@ Users should be able to:
 - HTML
 - CSS
 - Flexbox
+
+### What I learned
+
+During this project I learned about the mix-blend-mode property which sets how an element's content should blend with the content of the element's parent and the element's background.
 
 ### Useful resources
 
