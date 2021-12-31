@@ -30,8 +30,8 @@ body {
 }
 
 main {
-  margin: auto 0;
-  width: 77%;
+  margin: auto;
+  width: 69.3rem;
 }
 
 .container {
@@ -119,9 +119,9 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   main {
-    width: 320px;
+    width: min(90%, 320px);
     margin: 5rem auto;
   }
 
@@ -142,13 +142,12 @@ footer {
     height: auto;
   }
 
-  .title,
-  .stats {
-    width: 300px;
+  .title {
+    width: min(90%, 300px);
   }
 
   .paragraph {
-    width: 260px;
+    width: min(90%, 260px);
     margin: 0 auto;
     padding-bottom: 2rem;
   }
@@ -165,7 +164,7 @@ footer {
   }
 
   .stats {
-    width: 200px;
+    width: min(90%, 200px);
     flex-direction: column;
     text-align: center;
     justify-content: center;
