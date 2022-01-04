@@ -93,6 +93,7 @@ main {
 .image {
   display: block;
   mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .mobile {
